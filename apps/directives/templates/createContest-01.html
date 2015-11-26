@@ -1,0 +1,283 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Code_a_thon(); Admin Console</title>
+<link rel="stylesheet" type="text/css" href="reset.css" />
+<link rel="stylesheet" type="text/css" href="common.css" />
+<link rel="stylesheet" type="text/css" href="rms.css" />
+<!--[if lt IE 9]>
+        <script src="js/modernizr.custom.24435.js"></script> 
+    <![endif]-->
+    
+</head>
+<body>
+<div class="container themeadmin">
+  <header class="mainheader top_header">
+    <aside class="compLogo"> <a href="http://www.wellsfargo.com" target="_blank" class="logo"> <img src="images/logo.png" title="Well Fargo" alt="Well Fargo EGS" /></a> </aside>
+    <aside class="userDetail">
+      <div class="showMenu"> <img src="images/emp-img21.jpg" alt="" /> <span class="emp-name">Employee Name</span> </div>
+      <div class="dropMenu" style="display: none;"> <span class="topArrow"></span>
+        <div class="subMenuArea"> <a title="Logout" href="javascript:void(0)">Logout</a> </div>
+      </div>
+    </aside>
+    <div class="cls"></div>
+  </header>
+  <section class="contentarea">
+    <section class="content-leftsec direct">
+      <aside class="show-hide"><a href="javascript:void(0);"><i></i>Hide/Show Navigation</a> </aside>
+      <nav>
+        <ul>
+          <li class="dashboard"><a href="javascript:void(0);"><i></i><span>Dashboard</span></a></li>
+          <li class="contests"><a href="javascript:void(0);" ><i></i><span>Contests</span></a> </li>
+          <li class="multisites"><a href="javascript:void(0);"><i></i><span>Multisites</span></a></li>
+          <li class="users"><a href="javascript:void(0);"><i></i><span>Users</span></a></li>
+          <li class="tools submenu"><a href="javascript:void(0);"><i></i><span>Tools</span></a>
+          	<ul>
+          		<li><a href="#" class="active">Manage Contests</a></li>
+            	<li><a href="#">Manage Domains</a></li>
+            	<li><a href="#">Manage Technology</a></li>
+            	<li><a href="#">Manage Locations</a></li>
+            	<li><a href="#">Manage Host</a></li>
+            	<li><a href="#">Manage Role</a></li>
+            	<li><a href="#">Manage APIs</a></li>
+            </ul>
+          </li>
+          <li class="reports"><a href="javascript:void(0);"><i></i><span>Reports</span></a> </li>
+          <li class="help"><a href="javascript:void(0);"><i></i><span>Help</span></a> </li>
+          
+        </ul>
+      </nav>
+    </section>
+    <section class="content-rightsec">
+      <aside class="w100per clearfix">
+        
+        <aside class="pageinfo fullbox"><a href="#">Manage Contests</a> <i></i> <span>Create New Contest</span></aside>
+        <aside class="contentbox">
+          <aside class="contentbox-head"> <span class="title">Create New Contest</span>
+            <aside class="righticons"> <a href="#" class="listview"></a> </aside>
+          </aside>
+          <span class="sec-head">Basic Details</span>
+          <aside class="formfield">
+            <aside class="pad10">
+              <aside class="formfield-left">
+                <aside class="form-row"> <span class="form-label">Contest Name</span>
+                  <aside class="form-field">
+                    <input type="text" class="textfield">
+                  </aside>
+                </aside>
+                <aside class="form-row"> <span class="form-label"> Contest Type</span>
+                  <aside class="form-field">
+                    <aside class="field large"> <span class="dd-text"></span>
+                      <select class="designer">
+                        <option></option>
+                      </select>
+                    </aside>
+                  </aside>
+                </aside>
+                <aside class="form-row"> <span class="form-label">Team Type</span>
+                  <aside class="form-field">
+                    <aside class="field large"> <span class="dd-text"></span>
+                      <select class="designer">
+                        <option></option>
+                      </select>
+                    </aside>
+                  </aside>
+                </aside>
+                <aside class="form-row"> <span class="form-label">Domain</span>
+                  <aside class="form-field">
+                    <aside class="setMultipleList">
+                    	<ul>
+                        	<li><span>Multi select</span><input type="checkbox"></li>
+                            <li><span>Multi select</span><input type="checkbox"></li>
+                            <li><span>Multi select</span><input type="checkbox"></li>
+                            <li><span>Multi select</span><input type="checkbox"></li>
+                            <li><span>Multi select</span><input type="checkbox"></li>
+                            <li><span>Multi select</span><input type="checkbox"></li>
+                            <li><span>Multi select</span><input type="checkbox"></li>
+                            <li><span>Multi select</span><input type="checkbox"></li>
+                        </ul>
+                    </aside>
+                  </aside>
+                </aside>
+                <aside class="form-row"> <span class="form-label">Host</span>
+                  <aside class="form-field">
+                    <aside class="setMultipleList">
+                    	<ul>
+                        	<li><span>Multi select</span><input type="checkbox"></li>
+                            <li><span>Multi select</span><input type="checkbox"></li>
+                            <li><span>Multi select</span><input type="checkbox"></li>
+                            <li><span>Multi select</span><input type="checkbox"></li>
+                            <li><span>Multi select</span><input type="checkbox"></li>
+                            <li><span>Multi select</span><input type="checkbox"></li>
+                            <li><span>Multi select</span><input type="checkbox"></li>
+                            <li><span>Multi select</span><input type="checkbox"></li>
+                        </ul>
+                    </aside>
+                  </aside>
+                </aside>
+                <aside class="form-row"> <span class="form-label">Approval Required</span>
+                  <aside class="form-field">
+                    <span class="form-label">Registration<input type="checkbox" class="concheck1"></span>
+                    <span class="form-label">Application<input type="checkbox" class="concheck1"></span>
+                  </aside>
+                </aside>
+              </aside>
+              <aside class="formfield-right">
+                <aside class="form-row">
+                    <span class="form-label"> Description</span>
+                    <aside class="form-field">
+                          <textarea class="textfield row3"></textarea>                                            
+                    </aside>
+                </aside>
+                <aside class="form-row"> <span class="form-label"> Location</span>
+                  <aside class="form-field">
+                    <aside class="field large"> <span class="dd-text"></span>
+                      <select class="designer">
+                        <option></option>
+                      </select>
+                    </aside>
+                  </aside>
+                </aside>
+                <aside class="form-row"> <span class="form-label">Technology</span>
+                  <aside class="form-field">
+                    <aside class="setMultipleList">
+                    	<ul>
+                        	<li><span>Multi select</span><input type="checkbox"></li>
+                            <li><span>Multi select</span><input type="checkbox"></li>
+                            <li><span>Multi select</span><input type="checkbox"></li>
+                            <li><span>Multi select</span><input type="checkbox"></li>
+                            <li><span>Multi select</span><input type="checkbox"></li>
+                            <li><span>Multi select</span><input type="checkbox"></li>
+                            <li><span>Multi select</span><input type="checkbox"></li>
+                            <li><span>Multi select</span><input type="checkbox"></li>
+                        </ul>
+                    </aside>
+                  </aside>
+                </aside>
+                <aside class="form-row"> <span class="form-label">Contest Period</span>
+                  <aside class="form-field">
+                    <input type="text" class="textfield datefield smallfield" id="datepicker"> <input type="text" class="textfield datefield smallfield marginLeft">
+                  </aside>
+                </aside>
+                <aside class="form-row"> <span class="form-label">Max Score</span>
+                  <aside class="form-field">
+                    <input type="text" class="textfield">
+                  </aside>
+                </aside>
+              </aside>
+              <div class="clear"></div>
+            </aside>
+          </aside>
+          <span class="sec-head">Contest Cycle</span>
+          <aside class="formfield">
+            <aside class="pad10">
+              <aside class="formfield-left">
+                <aside class="form-row"> <span class="form-label">Cycle Name</span>
+                  <aside class="form-field">
+                    <input type="text" class="textfield">
+                  </aside>
+                </aside>
+                <aside class="form-row">
+                    <span class="form-label">Cycle Description</span>
+                    <aside class="form-field">
+                          <textarea class="textfield row3"></textarea>                                            
+                    </aside>
+                </aside>
+                </aside>
+                
+              <aside class="formfield-right">
+                <aside class="form-row"> <span class="form-label">Duration</span>
+                  <aside class="form-field">
+                    <input type="text" class="textfield datefield smallfield"> <input type="text" class="textfield datefield smallfield marginLeft">
+                  </aside>
+                </aside>
+                <aside class="button-row">
+          <input type="button" class="buttons main" value="Add New">
+          <input type="button" class="buttons" value="Cancel">
+        </aside>
+                
+              
+          </aside>
+           <div class="clear"></div>
+            </aside>
+          
+        
+        
+        <table class="whitehead-tbl">
+          <tr>
+            <th class="w22per">Cycle Name</th>
+            <th>Description</th>
+            <th class="w100p">From Date</th>
+            <th class="w100p">To Date</th>
+            <th class="w40p">Active</th>
+            <th class="w40p">Delete</th>
+          </tr>
+          <tr>
+          	<td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td><i class="status"></i></td>
+            <td><span class="icon22"><a href="#" class="del"></a></span></td>
+          </tr>
+          <tr>
+          	<td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td><i class="status"></i></td>
+            <td><span class="icon22"><a href="#" class="del"></a></span></td>
+          </tr>
+          <tr>
+          	<td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td><i class="status"></i></td>
+            <td><span class="icon22"><a href="#" class="del"></a></span></td>
+          </tr>
+          <tr>
+          	<td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td><i class="status inactive"></i></td>
+            <td><span class="icon22"><a href="#" class="del"></a></span></td>
+          </tr>
+        </table>
+        </aside>
+        </aside>
+         </aside>
+        <aside class="button-row">
+    	  <input type="button" class="buttons main left" value="Save">
+          <input type="button" class="buttons main" value="Next">
+          <input type="button" class="buttons" value="Cancel">
+        </aside>
+     
+    
+      <div class="clear"></div>
+    </section>
+  </section>
+  <footer>
+    <aside class="foot-left"><span>&copy; All Rights Reserved.</span> <a href="javascript:void(0);">Contact Us</a> </aside>
+    
+  </footer>
+</div>
+<script src="js/jquery-1.10.2.min.js"></script> 
+<script src="js/jquery-migrate-1.2.1.js"></script> 
+<script src="js/common.js"></script> 
+<script type="text/javascript">
+        $(document).ready(function () {
+            resizeDivisions()
+            $('.showMenu').click(function () {
+                $('.dropMenu').show();
+            });
+            $(document).mousedown(function () {
+                $('.dropMenu').fadeOut(200);
+            });
+        })
+         
+    </script>
+</body>
+</html>

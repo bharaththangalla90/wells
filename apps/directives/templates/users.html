@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Code_a_thon(); Admin Console</title>
+<link rel="stylesheet" type="text/css" href="reset.css" />
+<link rel="stylesheet" type="text/css" href="common.css" />
+<link rel="stylesheet" type="text/css" href="rms.css" />
+<!--[if lt IE 9]>
+        <script src="js/modernizr.custom.24435.js"></script> 
+    <![endif]-->
+</head>
+<body>
+<div class="container themeadmin">
+  <header class="mainheader top_header">
+    <aside class="compLogo"> <a href="http://www.wellsfargo.com" target="_blank" class="logo"> <img src="images/logo.png" title="Well Fargo" alt="Well Fargo EGS" /></a> </aside>
+    <aside class="userDetail">
+      <div class="showMenu"> <img src="images/emp-img21.jpg" alt="" /> <span class="emp-name">Employee Name</span> </div>
+      <div class="dropMenu" style="display: none;"> <span class="topArrow"></span>
+        <div class="subMenuArea"> <a title="Logout" href="javascript:void(0)">Logout</a> </div>
+      </div>
+    </aside>
+    <div class="cls"></div>
+  </header>
+  <section class="contentarea">
+    <section class="content-leftsec direct">
+      <aside class="show-hide"><a href="javascript:void(0);"><i></i>Hide/Show Navigation</a> </aside>
+      <nav>
+        <ul>
+          <li class="dashboard"><a href="javascript:void(0);"><i></i><span>Dashboard</span></a></li>
+          <li class="contests"><a href="javascript:void(0);" class="active" ><i></i><span>Contests</span></a> </li>
+          <li class="multisites"><a href="javascript:void(0);"><i></i><span>Multisites</span></a></li>
+          <li class="users"><a href="javascript:void(0);"><i></i><span>Users</span></a></li>
+          <li class="tools submenu"><a href="javascript:void(0);"><i></i><span>Tools</span></a>
+          	<ul>
+          		<li><a href="#">Manage Contests</a></li>
+            	<li><a href="#">Manage Domains</a></li>
+            	<li><a href="#">Manage Technology</a></li>
+            	<li><a href="#">Manage Locations</a></li>
+            	<li><a href="#">Manage Host</a></li>
+            	<li><a href="#">Manage Role</a></li>
+            	<li><a href="#">Manage APIs</a></li>
+            </ul>
+          </li>
+          <li class="reports"><a href="javascript:void(0);"><i></i><span>Reports</span></a> </li>
+          <li class="help"><a href="javascript:void(0);"><i></i><span>Help</span></a> </li>
+          
+        </ul>
+      </nav>
+    </section>
+    <section class="content-rightsec">
+      <aside class="w100per clearfix">
+        
+        <aside class="pageinfo fullbox"><a href="#">Contests</a> <i></i> <span>Contest Name</span> <i></i> <span>Users</span> </aside>
+        <aside class="contentbox">
+          <aside class="contentbox-head"> <span class="title">Registered Users </span>
+            <aside class="righticons">
+              <div class="searchShowOuter"> <a class="searchSec-icon showSearchSec" href="javascript:void(0);"></a>
+                <div class="showSection hide"> <a class="searchSec-icon2" href="#"></a>
+                  <input type="text" class="searchSec-fld">
+                </div>
+              </div>
+              <!--<a href="#" class="button withicon"><i></i>Add New Contest</a>-->
+            </aside>
+          </aside>
+          <div class="w100per" id="pendClearance">
+            <div class="tableHeading">
+              <table class="listing-table">
+                <tr>
+                  <th class="w20p"><input type="checkbox"></th>
+                  <th class="w25per">contestant Name</th>
+                  <th>Email ID</th>
+                  <th class="w10per">Registration Date</th>
+                  <th class="w10per">Approval Status</th>
+                  <th class="w10per">Answer Submitted</th>
+                  <th class="w10per">Score</th>
+                  
+                  
+                </tr>
+              </table>
+            </div>
+            <div class="tableData">
+              <table class="listing-table">
+                <tr>
+                  <td class="w20p"><input type="checkbox"></td>
+                  <td class="w25per"><a href="#">Chandrachud Patil</a></td>
+                  <td>chandrachud.patil@wellsfargo.com</a></td>
+                  <td class="w10per">Dec 12, 2015</td>
+                  <td class="w10per">Approved</td>
+                  <td class="w10per"><a href="#">Yes</a></td>
+                  <td class="w10per"><a href="#">-</a></td>
+                 </tr>
+                </table>
+            </div>
+          </div>
+          <div class="clear"></div>
+          
+        </aside>
+        
+      </aside>
+      <div class="status-select">
+    	<span class="form-label">Select Action</span>
+        	<div class="field full">
+                	<span class="dd-text"></span>
+                    <select class="designer" id="popSel" style="opacity: 0;">
+                    	<option default>Select an Action</option>
+                    	<option>Approve Users</option>
+                    	<option>Reject Users</option>
+                    	<option>Select Winner</option>
+                    </select>
+            </div>
+       </div>
+    	<aside class="button-row">
+    	 <input type="button" class="buttons main" value="Submit">
+          <input type="button" class="buttons" value="Cancel">
+        </aside>
+      <div class="clear"></div>
+    </section>
+  </section>
+  <footer>
+    <aside class="foot-left"><span>&copy; All Rights Reserved.</span> <a href="javascript:void(0);">Contact Us</a> </aside>
+    
+  </footer>
+</div>
+<script src="js/jquery-1.10.2.min.js"></script> 
+<script src="js/jquery-migrate-1.2.1.js"></script> 
+<script src="js/common.js"></script> 
+<script type="text/javascript">
+        $(document).ready(function () {
+            resizeDivisions()
+            $('.showMenu').click(function () {
+                $('.dropMenu').show();
+            });
+            $(document).mousedown(function () {
+                $('.dropMenu').fadeOut(200);
+            });
+        })
+       
+    </script>
+</body>
+</html>

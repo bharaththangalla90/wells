@@ -1,0 +1,220 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Code_a_thon(); Admin Console</title>
+<link rel="stylesheet" type="text/css" href="reset.css" />
+<link rel="stylesheet" type="text/css" href="common.css" />
+<link rel="stylesheet" type="text/css" href="rms.css" />
+<!--[if lt IE 9]>
+        <script src="js/modernizr.custom.24435.js"></script> 
+    <![endif]-->
+</head>
+<body>
+<div class="container themeadmin">
+  <header class="mainheader top_header">
+    <aside class="compLogo"> <a href="http://www.wellsfargo.com" target="_blank" class="logo"> <img src="images/logo.png" title="Well Fargo" alt="Well Fargo EGS" /></a> </aside>
+    <aside class="userDetail">
+      <div class="showMenu"> <img src="images/emp-img21.jpg" alt="" /> <span class="emp-name">Employee Name</span> </div>
+      <div class="dropMenu" style="display: none;"> <span class="topArrow"></span>
+        <div class="subMenuArea"> <a title="Logout" href="javascript:void(0)">Logout</a> </div>
+      </div>
+    </aside>
+    <div class="cls"></div>
+  </header>
+  <section class="contentarea">
+    <section class="content-leftsec direct">
+      <aside class="show-hide"><a href="javascript:void(0);"><i></i>Hide/Show Navigation</a> </aside>
+      <nav>
+        <ul>
+          <li class="dashboard" class="active"><a href="javascript:void(0);"><i></i><span>Dashboard</span></a></li>
+          <li class="contests"><a href="javascript:void(0);" ><i></i><span>Contests</span></a> </li>
+          <li class="multisites"><a href="javascript:void(0);"><i></i><span>Multisites</span></a></li>
+          <li class="users"><a href="javascript:void(0);"><i></i><span>Users</span></a></li>
+          <li class="tools submenu"><a href="javascript:void(0);"><i></i><span>Tools</span></a>
+          	<ul>
+          		<li><a href="#">Manage Contests</a></li>
+            	<li><a href="#">Manage Domains</a></li>
+            	<li><a href="#">Manage Technology</a></li>
+            	<li><a href="#">Manage Locations</a></li>
+            	<li><a href="#">Manage Host</a></li>
+            	<li><a href="#">Manage Role</a></li>
+            	<li><a href="#">Manage APIs</a></li>
+            </ul>
+          </li>
+          <li class="reports"><a href="javascript:void(0);"><i></i><span>Reports</span></a> </li>
+          <li class="help"><a href="javascript:void(0);"><i></i><span>Help</span></a> </li>
+          
+        </ul>
+      </nav>
+    </section>
+    <section class="content-rightsec">
+      <aside class="w100per clearfix">
+        
+        <aside class="pageinfo fullbox"><a href="#">Dashboard</a></aside>
+        <aside class="contentbox no-bg">
+          	<div class="col-lg-6">
+          	<div class="welcome-box">
+          			<div class="welcome-head">Welcome to Code_thon(); Admin Console</div>
+          			<div class="welcome-text">We’ve assembled some links to get you started</div>
+          			
+          			<div class="col-lg-6">
+          				<ul class="action-list">Important Actions
+          					<li><i></i>Manage <a href="#">Multisites</a></li>
+          					<li>Manage <a href="#">Users</a></li>
+          					<li>View <a href="#">Reports</a></li>
+          				</ul>
+          			</div>
+          			<div class="col-lg-6">
+          				<ul class="action-list">More Actions
+          					<li><i></i>Manage <a href="#">User Roles</a></li>
+          					<li>Add or Edit <a href="#">Locations</a></li>
+          					<li>View/Manage <a href="#">Contests</a></li>
+          				</ul>
+          			</div>
+          		</div>
+          	</div>
+          	<div class="col-lg-6">
+          	<div class="welcome-box">
+          			<div class="welcome-head">Welcome to Code_thon(); Admin Console</div>
+          			<div class="welcome-text">We’ve assembled some links to get you started</div>
+          			
+          			<div class="col-lg-6">
+          				<ul class="action-list">Important Actions
+          					<li><i></i>Manage <a href="#">Multisites</a></li>
+          					<li>Manage <a href="#">Users</a></li>
+          					<li>View <a href="#">Reports</a></li>
+          				</ul>
+          			</div>
+          			<div class="col-lg-6">
+          				<ul class="action-list">More Actions
+          					<li><i></i>Manage <a href="#">User Roles</a></li>
+          					<li>Add or Edit <a href="#">Locations</a></li>
+          					<li>View/Manage <a href="#">Contests</a></li>
+          				</ul>
+          			</div>
+          		</div>
+          		
+          	</div>
+          	<div class="clear"></div>
+          	<div class="col-lg-3">
+          		<div class="info-box">
+          			<div class="title">Users</div>
+          			<div class="detail">user registered for Code_a_thon();</div>
+          			<div class="count">7,538</div>
+          		</div>
+          	</div>
+          	<div class="col-lg-3">
+          		<div class="info-box">
+          			<div class="title">Multisites</div>
+          			<div class="detail">list of multisites running</div>
+          			<div class="count">538</div>
+          		</div>
+          	</div>
+          	<div class="col-lg-3">
+          		<div class="info-box">
+          			<div class="title">Active Contests</div>
+          			<div class="detail">no. of contest running</div>
+          			<div class="count">10</div>
+          		</div>
+          	</div>
+          	<div class="col-lg-3">
+          		<div class="info-box">
+          			<div class="title">Closed Contests</div>
+          			<div class="detail">contests winner announced</div>
+          			<div class="count">132</div>
+          		</div>
+          	</div>
+          	<div class="clear"></div>
+          	
+          <div class="active-contest">
+          <div class="w100per"><h2>Active Contest</h2><p>Overview of contests currently active in Code_a_thon();</p></div>
+          <div class="w100per">
+            <div class="tableHeading">
+              <table class="listing-table">
+                <tr>
+                  <th>Contest Name</th>
+                  <th class="w10per">Start Date</th>
+                  <th class="w10per">End Date</th>
+                  <th class="w10per">Registered</th>
+                  <th class="w10per">Approved</th>
+                  <th class="w14per">Location</th>
+                  <th class="w10per">Questions</th>
+                  <th class="w10per">Current Cycle</th>
+                  
+                </tr>
+              </table>
+            </div>
+            <div class="tableData">
+              <table class="listing-table pad">
+                <tr>
+                  <td><a href="#">EGS Codeathon 2015</a></td>
+                  <td class="w10per">Dec 12, 2015</td>
+                  <td class="w10per">Dec 12, 2015</td>
+                  <td class="w10per"><a href="#">1234</a></td>
+                  <td class="w10per"><a href="#">1234</a></td>
+                  <td class="w14per">Hyderabad, India</td>
+                  <td class="w10per"><a href="#">4</a></td>
+                  <td class="w10per"><span class="status-row">Round 2</span></td>
+                </tr>
+                <tr>
+                  <td><a href="#">EGS Codeathon 2015</a></td>
+                  <td class="w10per">Dec 12, 2015</td>
+                  <td class="w10per">Dec 12, 2015</td>
+                  <td class="w10per"><a href="#">1234</a></td>
+                  <td class="w10per"><a href="#">1234</a></td>
+                  <td class="w14per">Hyderabad, India</td>
+                  <td class="w10per"><a href="#">4</a></td>
+                  <td class="w10per"><span class="status-row">Round 2</span></td>
+                </tr>
+                <tr>
+                  <td><a href="#">EGS Codeathon 2015</a></td>
+                  <td class="w10per">Dec 12, 2015</td>
+                  <td class="w10per">Dec 12, 2015</td>
+                  <td class="w10per"><a href="#">1234</a></td>
+                  <td class="w10per"><a href="#">1234</a></td>
+                  <td class="w14per">Hyderabad, India</td>
+                  <td class="w10per"><a href="#">4</a></td>
+                  <td class="w10per"><span class="status-row">Round 2</span></td>
+                </tr>
+               </table>
+            </div>
+          </div>
+          </div>
+          <div class="clear"></div>
+        </aside>
+          	
+          
+          <div class="clear"></div>
+        </aside>
+        
+        </aside>
+        </aside>
+         </aside>
+        
+     
+    
+      <div class="clear"></div>
+    </section>
+  </section>
+  <footer>
+    <aside class="foot-left"><span>&copy; All Rights Reserved.</span> <a href="javascript:void(0);">Contact Us</a> </aside>
+    
+  </footer>
+</div>
+<script src="js/jquery-1.10.2.min.js"></script> 
+<script src="js/jquery-migrate-1.2.1.js"></script> 
+<script src="js/common.js"></script> 
+<script type="text/javascript">
+        $(document).ready(function () {
+            resizeDivisions()
+            $('.showMenu').click(function () {
+                $('.dropMenu').show();
+            });
+            $(document).mousedown(function () {
+                $('.dropMenu').fadeOut(200);
+            });
+        })
+    </script>
+</body>
+</html>
