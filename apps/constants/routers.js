@@ -1,13 +1,13 @@
 (function() {
     'use strict';
     codeathonapp.constant('uiRouters', {
-        filepath: 'app/datafiles',
+        filepath: 'apps/datafiles',
 		urlpath:'/codathon/rest/v0/service/admin',
         idleTime: 120,
         idleWarningTime: 10,
         dashboardmsg: 'Please Wait...Dashboard is Loading',
         waitmsg: 'Please Wait...',
-        directivesHtmlPath: 'app/directives/templates',
+        directivesHtmlPath: 'apps/directives/templates',
         login: '/login/',
         dashboard: '/dashboard/',
         contests: '/contests',
